@@ -34,3 +34,8 @@ for key in dic_a:
     print(key, dic_a[key])
 
 
+print("-----------------------------------")
+print(dic_a)
+
+new_list = [value for key, value in dic_a.items() if key%2 == 0]
+print(new_list)
