@@ -1,0 +1,16 @@
+a = "{: d}".format(10)
+b = "{:d}".format(-10)
+c = "{: d}".format(-10)
+print(a)
+print(b)
+print(c)
+
+d = "{}".format("00000")
+print(d)
+d = "{:5d}".format(52)
+print(d)
+d = "{:05d}".format(52)
+print(d)
+
+s = "{}".format("안녕하세요")
+print(s)
